@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    /*display: grid;
+    grid-template-areas: 
+    "he he he he"
+    "ar ar ar ar"
+    "fo fo fo fo"
+    ;
+    */
+}
+
+header {
+    /*grid-area: he;*/
+}
+article {
+    /*grid-area: ar;*/
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article div {
+    flex:0 0 12.5%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+footer {
+    /*grid-area: fo;*/
+
+}
